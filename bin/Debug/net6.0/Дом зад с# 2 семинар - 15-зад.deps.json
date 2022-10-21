@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Дом зад с# 2 семинар - 15-зад/1.0.0": {
+        "runtime": {
+          "Дом зад с# 2 семинар - 15-зад.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Дом зад с# 2 семинар - 15-зад/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

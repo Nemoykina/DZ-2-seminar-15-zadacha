@@ -4,7 +4,7 @@
 // 7 -> да
 // 1 -> нет
 Console.Clear();
-Console.WriteLine("Введите число дня недели: ");
+Console.WriteLine("Введите цифру, обозначающую день недели: ");
 int x = int.Parse(Console.ReadLine()!);
 if (x == 1)
 {
@@ -34,11 +34,15 @@ else if (x == 7)
 {
     Console.WriteLine("Воскресенье");
 }
-if (x < 5)
+if (x > 0 & x < 5)
 {
     Console.WriteLine("Будний день. ");
 }
 if (x < 5 & x < 7)
 {
     Console.WriteLine("Выходной день. ");
+}
+else
+{
+    Console.WriteLine("Введите число, обозначающее день недели. ");
 }
